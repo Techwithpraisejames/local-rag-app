@@ -1,0 +1,24 @@
+RIVERSIDE COMMUNITY FOOTBALL LEAGUE
+2026 SEASON HANDBOOK
+FICTIONAL SAMPLE DATA FOR A LOCAL RAG TUTORIAL
+
+Competition format
+The league has six fictional teams: Riverside Rovers, Harbor United, Northfield FC, Cedar Athletic, Meadow City, and Eastgate Town. Every team plays every other team twice, once at home and once away, for a total of ten league matches per team.
+
+League points
+A win earns three points. A draw earns one point. A loss earns zero points. Teams are ranked by total points. If teams are tied, use goal difference, then goals scored, then head-to-head points.
+
+Match duration
+Senior matches have two 45-minute halves with a 15-minute halftime break. Referees may allow stoppage time.
+
+Substitutions
+Each team may name up to seven substitutes and use up to five during a match, subject to the match official's instructions.
+
+Discipline
+A player receiving two yellow cards in one match is sent off. A straight red card also results in dismissal. A dismissed player misses the next league match pending a disciplinary review.
+
+Weather postponements
+The match official decides whether the pitch is safe. If a match is postponed, the league coordinator announces a new date within seven days.
+
+Source note
+All teams, rules, and competition details in this document are invented for demonstration. They are not official football association rules.
