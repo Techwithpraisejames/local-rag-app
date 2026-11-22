@@ -4,8 +4,6 @@ A beginner-friendly, **terminal-based retrieval-augmented generation (RAG) proje
 
 ## Stack
 
-This is adapted from the RAG pipeline in [egress_audit](https://github.com/Techwithpraisejames/egress_audit), preserving its core stack:
-
 - **Ollama + llama3.2:3b:** local LLM inference
 - **BAAI/bge-small-en-v1.5:** local embedding model
 - **LlamaIndex:** document ingestion, indexing, retrieval, and response synthesis
@@ -16,19 +14,21 @@ The app reads files in `docs/`, creates embeddings, stores them in a `sports_rag
 
 ## Sample documents
 
-The `docs/` folder contains **fictional educational examples**, not real match data:
+The `docs/` folder contains **fictional educational examples** :
 
 - `league-rules.txt`: points, substitutions, and competition rules
 - `team-guide.txt`: training schedules and matchday instructions
 - `season-fixtures.txt`: fictional fixtures, results, and statistics
 
-These documents are deliberately small and easy to inspect. Replace them with your own local TXT or other LlamaIndex-supported documents to experiment. The sample fixtures and statistics are internally consistent, but you should still verify generated answers against the documents.
+
+Replace the documents with your own local TXT or other LlamaIndex-supported documents to experiment. 
+
 
 ## Requirements
 
 - Docker with Docker Compose
 - An internet connection for the initial Docker image, Ollama model, and embedding-model downloads
-- Sufficient disk space and RAM for Ollama, VectorAI DB, Phoenix, and the Python embedding model (approximately 12 GB RAM is a practical starting point, not a benchmark)
+- Sufficient disk space and RAM for Ollama, VectorAI DB, Phoenix, and the Python embedding model (approximately 12 GB RAM is a practical starting point)
 - Ports 11434, 6574, and 6006 available
 
 ## Run the project
@@ -82,13 +82,3 @@ The default service endpoints are `http://localhost:11434`, `localhost:6574`, an
 4. **Retrieve:** The question is embedded, and the top three similar chunks are retrieved.
 5. **Generate:** Ollama's Llama 3.2 model produces an answer using the retrieved context.
 6. **Trace:** Phoenix records the instrumented LlamaIndex pipeline.
-
-This is a local inference stack **after initial downloads**, not a guarantee that every dependency or container makes zero network requests. The original audit repo investigated those network behaviors separately.
-
-## Limitations
-
-- CLI only, no graphical chat interface.
-- Re-indexes the sample documents for each question.
-- Uses a small local model, so answers can still be wrong; check the original documents.
-- Does not implement authentication, citation formatting, multi-user access, or production-grade evaluation.
-- Uses the same core dependency versions as the source RAG project, but this new Compose configuration and sports dataset have not been end-to-end tested in your machine environment.
