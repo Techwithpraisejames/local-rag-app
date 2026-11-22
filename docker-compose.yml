@@ -1,0 +1,49 @@
+services:
+  vectorai:
+    image: actian/vectorai:latest
+    ports:
+      - "6573:6573"
+      - "6574:6574"
+      - "6575:6575"
+    environment:
+      ACTIAN_VECTORAI_ACCEPT_EULA: "YES"
+    volumes:
+      - vectorai_data:/var/lib/actian-vectorai
+
+  ollama:
+    image: ollama/ollama:latest
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+
+  phoenix:
+    image: arizephoenix/phoenix:latest
+    ports:
+      - "6006:6006"
+      - "4317:4317"
+    environment:
+      PHOENIX_WORKING_DIR: /mnt/data
+    volumes:
+      - phoenix_data:/mnt/data
+
+  app:
+    build: .
+    profiles: ["app"]
+    depends_on:
+      - vectorai
+      - ollama
+      - phoenix
+    environment:
+      OLLAMA_URL: http://ollama:11434
+      VECTORAI_URL: vectorai:6574
+      PHOENIX_TRACES_URL: http://phoenix:6006/v1/traces
+    volumes:
+      - ./docs:/app/docs:ro
+      - model_cache:/root/.cache/llama_index
+
+volumes:
+  vectorai_data:
+  ollama_data:
+  phoenix_data:
+  model_cache:
