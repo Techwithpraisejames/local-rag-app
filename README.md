@@ -22,7 +22,7 @@ The `docs/` folder contains **fictional educational examples**, not real match d
 - `team-guide.txt`: training schedules and matchday instructions
 - `season-fixtures.txt`: fictional fixtures, results, and statistics
 
-These documents are deliberately small and easy to inspect. Replace them with your own local TXT or other LlamaIndex-supported documents to experiment. The fixture file intentionally contains an inconsistent summary statistic as an example of why retrieved information still needs verification.
+These documents are deliberately small and easy to inspect. Replace them with your own local TXT or other LlamaIndex-supported documents to experiment. The sample fixtures and statistics are internally consistent, but you should still verify generated answers against the documents.
 
 ## Requirements
 
