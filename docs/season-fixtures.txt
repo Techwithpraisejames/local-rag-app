@@ -15,7 +15,7 @@ October 17: Riverside Rovers vs Northfield FC, 3:00 PM, Riverside Community Grou
 
 Statistics through September 26
 Riverside Rovers: four matches played, three wins, one draw, zero losses, ten league points, seven goals scored, four conceded, goal difference plus three.
-Top scorers in this sample: Ada Martins with four goals; Femi Cole with three goals; Zara Yusuf with one goal. Note: the listed scorers across the four match descriptions total eight goals while the standings line reports seven; for this demo, answer from the match-by-match results when asked to calculate goals, and flag the inconsistency rather than inventing a correction.
+Top scorers in this sample: Ada Martins with three goals; Femi Cole with three goals; Zara Yusuf with one goal. The match-by-match scorers total seven goals, matching the standings summary.
 
 Source note
 All fixtures, results, players, and statistics are fictional. Dates are part of a static sample dataset, not a current sports schedule.
