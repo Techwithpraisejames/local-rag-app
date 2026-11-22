@@ -1,0 +1,24 @@
+RIVERSIDE ROVERS TEAM GUIDE
+2026 TRAINING AND MATCHDAY PLAN
+FICTIONAL SAMPLE DATA FOR A LOCAL RAG TUTORIAL
+
+Training schedule
+The senior squad trains on Tuesdays and Thursdays from 6:00 PM to 7:30 PM at Riverside Community Ground. Goalkeeper practice begins at 5:30 PM on Thursdays.
+
+Matchday arrival
+Players should arrive 75 minutes before kickoff. The team manager checks attendance 60 minutes before kickoff. Warmups start 35 minutes before kickoff.
+
+Player equipment
+Bring football boots, shin guards, water, and the assigned training shirt. The club provides match jerseys. Jewelry must be removed before play.
+
+Captain and coaching staff
+The fictional captain is Ada Martins. The fictional head coach is Daniel Okoro. The team manager is Grace Bello.
+
+Injury reporting
+Players report injuries to the coach before training. The coach refers any suspected concussion to a qualified healthcare professional. Players with suspected concussion do not return to play that day.
+
+Youth training
+The under-17 group meets on Saturdays from 9:00 AM to 10:30 AM. Youth players require guardian consent before joining club activities.
+
+Source note
+Names, times, and policies are fictional and are included only as test data for the tutorial.
