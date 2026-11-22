@@ -1,0 +1,21 @@
+RIVERSIDE COMMUNITY FOOTBALL LEAGUE
+SAMPLE 2026 FIXTURES AND RESULTS
+FICTIONAL SAMPLE DATA FOR A LOCAL RAG TUTORIAL
+
+Completed matches
+September 5: Riverside Rovers 2–1 Harbor United. Scorers for Riverside: Ada Martins (12'), Femi Cole (76').
+September 12: Northfield FC 0–0 Riverside Rovers.
+September 19: Riverside Rovers 3–2 Cedar Athletic. Scorers for Riverside: Femi Cole (18', 63'), Ada Martins (88').
+September 26: Meadow City 1–2 Riverside Rovers. Scorers for Riverside: Ada Martins (41'), Zara Yusuf (70').
+
+Upcoming sample fixtures
+October 3: Riverside Rovers vs Eastgate Town, 3:00 PM, Riverside Community Ground.
+October 10: Harbor United vs Riverside Rovers, 4:00 PM, Harbor Park.
+October 17: Riverside Rovers vs Northfield FC, 3:00 PM, Riverside Community Ground.
+
+Statistics through September 26
+Riverside Rovers: four matches played, three wins, one draw, zero losses, ten league points, seven goals scored, four conceded, goal difference plus three.
+Top scorers in this sample: Ada Martins with four goals; Femi Cole with three goals; Zara Yusuf with one goal. Note: the listed scorers across the four match descriptions total eight goals while the standings line reports seven; for this demo, answer from the match-by-match results when asked to calculate goals, and flag the inconsistency rather than inventing a correction.
+
+Source note
+All fixtures, results, players, and statistics are fictional. Dates are part of a static sample dataset, not a current sports schedule.
