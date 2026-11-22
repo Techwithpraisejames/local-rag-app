@@ -1,0 +1,9 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+actian-vectorai-client==1.0.3
+llama-index-core==0.14.25
+llama-index-vector-stores-actian-vectorai==0.1.0
+llama-index-llms-ollama==0.11.0
+llama-index-embeddings-huggingface==0.8.0
+arize-phoenix-otel==0.17.2
+openinference-instrumentation-llama-index==4.6.0
+sentence-transformers==5.7.0
