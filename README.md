@@ -14,7 +14,7 @@ The app reads files in `docs/`, creates embeddings, stores them in a `sports_rag
 
 ## Sample documents
 
-The `docs/` folder contains **fictional educational examples** :
+The `docs/` folder contains **sample football documents**:
 
 - `league-rules.txt`: points, substitutions, and competition rules
 - `team-guide.txt`: training schedules and matchday instructions
