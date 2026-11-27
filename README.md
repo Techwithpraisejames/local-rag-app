@@ -1,6 +1,6 @@
 # Local RAG App: Ask Questions About Sports Documents
 
-A beginner-friendly, **terminal-based retrieval-augmented generation (RAG) project**. Ask a question about local documents, using football league documents as the included example and get an answer using locally served models and a vector database. The command-line interface returns an answer, and Phoenix lets you inspect the retrieval and generation trace.
+A **terminal-based retrieval-augmented generation (RAG) project**. Ask a question about local documents, using football league documents as the included example and get an answer using locally served models and a vector database. The command-line interface returns an answer, and Phoenix lets you inspect the retrieval and generation trace.
 
 ## Stack
 
