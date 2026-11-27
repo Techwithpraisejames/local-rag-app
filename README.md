@@ -1,6 +1,6 @@
 # Local RAG App: Ask Questions About Sports Documents
 
-A beginner-friendly, **terminal-based retrieval-augmented generation (RAG) project**. Ask a question about fictional football league documents and get an answer using locally served models and a vector database. No web frontend or audit tools.
+A beginner-friendly, **terminal-based retrieval-augmented generation (RAG) project**. Ask a question about local documents, using football league documents as the included example and get an answer using locally served models and a vector database. The command-line interface returns an answer, and Phoenix lets you inspect the retrieval and generation trace.
 
 ## Stack
 
@@ -42,7 +42,7 @@ docker compose build app
 docker compose run --rm app --question "How many points does a team earn for a win?"
 ```
 
-The first build and query can take several minutes because dependencies and the embedding model must download. Subsequent runs reuse the embedding-model cache, but **the documents are re-ingested and the vector collection is cleared and rebuilt for every query**. This mirrors the simple original tutorial stack, not an optimized production RAG service.
+The first build and query can take several minutes because dependencies and the embedding model must download. Subsequent runs reuse the embedding-model cache, but **the documents are re-ingested and the vector collection is cleared and rebuilt for every query**. Rebuilding the collection keeps the index synchronized with the current documents without implementing incremental updates. For larger collections, separate indexing from querying.
 
 Other questions to try:
 
